@@ -10,4 +10,9 @@
 
 @interface THViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *firstName;
+@property (strong, nonatomic) IBOutlet UILabel *lastName;
+@property (strong, nonatomic) IBOutlet UITextView *textView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
 @end
