@@ -37,7 +37,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="si9-Cj-E2N">
                                 <rect key="frame" x="140" y="71" width="160" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.6845703125" green="0.02969394065" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -46,13 +45,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="comment" destination="si9-Cj-E2N" id="Vds-vs-mBf"/>
-                        <outlet property="firstName" destination="fSJ-QM-lai" id="49u-kS-FXg"/>
-                        <outlet property="firstNameLabel" destination="fSJ-QM-lai" id="Ckq-Oc-8Zg"/>
-                        <outlet property="imageView" destination="lGM-l9-VDe" id="QCF-9E-L4j"/>
-                        <outlet property="lastName" destination="KTq-a6-gBX" id="JaT-T3-3zr"/>
-                        <outlet property="lastNameLabel" destination="KTq-a6-gBX" id="9tt-5M-oN3"/>
-                        <outlet property="textView" destination="si9-Cj-E2N" id="dUD-TS-aX9"/>
+                        <outlet property="firstName" destination="fSJ-QM-lai" id="OYJ-yx-DlO"/>
+                        <outlet property="imageView" destination="lGM-l9-VDe" id="dX1-Y1-zRj"/>
+                        <outlet property="lastName" destination="KTq-a6-gBX" id="nQS-z3-aIa"/>
+                        <outlet property="textView" destination="si9-Cj-E2N" id="MOM-k6-qOW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
